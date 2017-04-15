@@ -21,3 +21,16 @@ In the case of our application I added a couple of extras dependencies:
 
 
 I have follow the [create-react-app](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md) documentation to add this dependencies and modified the scripts section of the packages.json file as the documentation recommends.
+
+## Folder structure
+
+After reading a from different sources in the web I decided to go with to following folders structure.
+
+- public
+- src
+  - components
+  - content
+  - styles
+  - tests
+  - utils
+  index.js
