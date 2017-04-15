@@ -24,7 +24,7 @@ I have follow the [create-react-app](https://github.com/facebookincubator/create
 
 ## Folder structure
 
-After reading a from different sources in the web I decided to go with to following folders structure.
+After reading from different sources in the web I decided to go with to following folders structure.
 
 - public
 - src
