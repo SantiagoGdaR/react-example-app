@@ -2,7 +2,7 @@
 
 Application to work with some of the key features of React.
 
-##Installation guide
+## Installation guide
 
 The application was created using [create-react-app](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md) as it is recommended by the [react documentation](https://facebook.github.io/react/docs/installation.html).
 
