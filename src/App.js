@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
-import MainMenu from '../mainMenu/MainMenu';
-import logo from '../../content/logo.svg';
-import '../../styles/app.css';
+import logo from './logo.svg';
+import './app.css';
 
 class App extends Component {
   render() {
     return (
       <div className="app">
         <div className="app-header">
-          <MainMenu />
           <img src={logo} className="app-logo" alt="logo" />
           <h2>Welcome to Velocity React Workshop</h2>
         </div>
+        <p className="app-intro">
+          To get started, edit <code>src/App.js</code> and save to reload.
+        </p>
       </div>
     );
   }
