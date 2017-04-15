@@ -33,4 +33,3 @@ After reading a from different sources in the web I decided to go with to follow
   - styles
   - tests
   - utils
-  index.js
