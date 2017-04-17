@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import MainMenu from '../mainMenu/MainMenu';
 import Home from '../home/Home';
 import logo from '../../content/logo.svg';
-import '../../styles/app.css';
+import './app.css';
 
 class App extends Component {
   render() {

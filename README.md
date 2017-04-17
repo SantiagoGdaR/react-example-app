@@ -30,6 +30,5 @@ After reading from different sources in the web I decided to go with to followin
 - src
   - components
   - content
-  - styles
   - tests
   - utils
