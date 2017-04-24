@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Route, BrowserRouter} from 'react-router-dom';
+import {Route, Redirect, BrowserRouter} from 'react-router-dom';
 import MainMenu from '../mainMenu/MainMenu';
 import Home from '../home/Home';
 import logo from '../../content/logo.svg';
@@ -16,7 +16,8 @@ class App extends Component {
             <h2>Welcome to Velocity React Workshop</h2>
           </div>
           <div className="app-page">
-              <Route exact path="/" component={Home} />
+            <Route exact path="/Home" component={Home} />
+            <Redirect from="/*" to="/Home" />
           </div>
         </div>
       </BrowserRouter>
