@@ -2,6 +2,7 @@
   "name": "react-example-app",
   "version": "1.0.0",
   "dependencies": {
+    "axios": "^0.16.1",
     "bootstrap": "^3.3.7",
     "react": "^15.5.4",
     "react-bootstrap": "^0.30.8",

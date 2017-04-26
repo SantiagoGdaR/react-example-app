@@ -1,0 +1,51 @@
+.app-users{
+  padding-top: 25px;
+  .app-users-item{
+      display: inline-block;
+      border-radius: 10px 10px 0 0;
+      cursor: pointer;
+     .app-users-item-image{
+        border-radius: 10px 10px 0 0;
+        height: 200px;
+        padding: 10px;
+        background: #EEEEEE;
+        display: inline-block;
+        img{
+          height: 100%;
+          width: 100%;
+        }
+      }
+      .app-users-item-name{
+        font-size: 18px;
+        padding: 10px 0;
+        border: 1px solid #EEEEEE;
+      }
+      &:hover{
+        background: #222222;
+        .app-users-item-image{
+          background: #222222;
+        }
+        .app-users-item-name{
+          color: #FFF;
+          border: 1px solid #222222;
+        }
+        img{
+          animation:bounce 0.5s linear;
+        }
+      }
+  }
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(-30px);
+  }
+  25% {
+    transform: translateY(30px);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

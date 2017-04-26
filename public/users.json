@@ -1,0 +1,18 @@
+{ "users": [
+    {
+      "name": "Charlie",
+      "surname": "Shean",
+      "img": "http://ep01.epimg.net/elpais/imagenes/2016/05/24/estilo/1464102975_614595_1464103092_noticia_normal.jpg"
+    },
+    {
+      "name": "John",
+      "surname": "Constantine",
+      "img": "http://www.cine365static.com/assets/img/peliculas/8860/extra/cfe69-constantine6.jpg"
+    },
+    {
+      "name": "Emma",
+      "surname": "Swan",
+      "img": "https://typeset-beta.imgix.net/rehost%2F2016%2F9%2F13%2Ff5e86696-0d7f-4336-a903-e17a4a5932c0.jpg"
+    }
+  ]
+}
