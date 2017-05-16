@@ -6,9 +6,9 @@ const MainMenu = () =>
   (
     <div className="app-main-navigation">
       <header>
-        <NavLink to="/Home">ReactJs Workshop</NavLink>
-        <NavLink to="/Home" className="app-nav-item" activeClassName="selected">Home</NavLink>
-        <NavLink to="/Users" className="app-nav-item" activeClassName="selected">Users</NavLink>
+        <NavLink to="/home">ReactJs Workshop</NavLink>
+        <NavLink to="/home" className="app-nav-item" activeClassName="selected">Home</NavLink>
+        <NavLink to="/users" className="app-nav-item" activeClassName="selected">Users</NavLink>
       </header>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, Redirect, BrowserRouter} from 'react-router-dom';
+import {Route, Redirect, HashRouter} from 'react-router-dom';
 import MainMenu from '../mainMenu/MainMenu';
 import Home from '../home/Home';
 import User from '../user/User';
@@ -9,7 +9,7 @@ import './app.css';
 
 const App = () =>
   (
-      <BrowserRouter>
+      <HashRouter>
         <div className="app">
           <MainMenu />
           <div className="app-header">
@@ -19,10 +19,11 @@ const App = () =>
           <div className="app-page">
             <Route exact path="/home" component={Home} />
             <Route exact path="/users" component={Users} />
-            <Route path="/user" component={User} />
+            <Route path="/user/:id" component={User} />
+            <Redirect from="/" to="/home"/>
           </div>
         </div>
-      </BrowserRouter>
+      </HashRouter>
   );
 
 

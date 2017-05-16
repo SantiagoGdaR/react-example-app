@@ -20,7 +20,7 @@ class Pagination extends Component {
   render(){
     const uiPages = this.props.pages.map((page) =>
       <li key={page.number} className={this.state.selectedPage.number === page.number ? 'active' : ''}>
-        <a href="#" onClick={this.pageClick}>{page.number}</a>
+        <a onClick={this.pageClick}>{page.number}</a>
       </li>
     );
     return (

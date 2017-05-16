@@ -46,7 +46,7 @@ class Users extends Component{
       return index < (this.state.selectedPage.number * 3) &&
         index >= ((this.state.selectedPage.number - 1) * 3);
     }).map((item, index) =>
-      <Link key={index} to={{ pathname: '/user', search: '?id=' + item.id }}>
+      <Link key={index} to={{ pathname: '/user/'+ item.id }}>
         <div className="col-xs-12 col-sm-6 col-md-4">
           <div className="app-users-item">
             <div className="col-xs-12 app-no-padding">
